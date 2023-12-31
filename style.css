@@ -1,8 +1,18 @@
 body {
-  background-color: #000000;
+ background-image: url('534564.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center:
   margin: 0;
   overflow: hidden;
 }
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url('534564.jpg');
+    background-position: center top; /* Adjust as needed */
+  }
+}
+
 canvas {
   cursor: pointer;
 }
@@ -25,8 +35,8 @@ canvas {
   width: 100%;
 }
 .start {
-  color: white;
-  font-size: 40px;
+  color: pink;
+  font-size: 50px;
   margin-top: -40px;
   position: absolute; 
   text-align: center;
