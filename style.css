@@ -1,5 +1,10 @@
 body {
   background-color: #000000;
+  background-image: url('534564.jpg');
+  background-position: center; 
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
   margin: 0;
   overflow: hidden;
 }
@@ -9,16 +14,15 @@ body {
     background-image: url('534564.jpg');
     background-position: center; 
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: cover; /* Adjust as needed */
     background-repeat: no-repeat;
-   
-    /* Adjust as needed */
   }
 }
 
 canvas {
   cursor: pointer;
 }
+
 .a {
   color: gold;
   font-size: 50px;
@@ -28,6 +32,7 @@ canvas {
   top: 80%;
   width: 100%;
 }
+
 .h {
   color: blue;
   font-size: 60px;
@@ -37,6 +42,7 @@ canvas {
   top: 20%;
   width: 100%;
 }
+
 .start {
   color: pink;
   font-size: 40px;
